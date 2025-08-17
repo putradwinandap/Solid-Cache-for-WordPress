@@ -27,8 +27,9 @@ class AdminAssets
                 'url' => admin_url('admin-ajax.php', 'relative'),
                 'nonce' => wp_create_nonce('ptrsoc_nonce'),
                 'flushCacheTitle' => __('Flush Cache', PTRSOC_TEXTDOMAIN),
-                'loading' => __('Loading...', PTRSOC_TEXTDOMAIN),
                 'confirmFlush' => __('Are you sure you want to flush the cache? This action cannot be undone.', PTRSOC_TEXTDOMAIN),
+                'errorMessage' => __('An error occurred while flushing the cache.', PTRSOC_TEXTDOMAIN),
+                'loading' => __('Loading...', PTRSOC_TEXTDOMAIN),
             ]
         );
     }
