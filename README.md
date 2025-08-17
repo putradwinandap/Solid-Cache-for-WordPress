@@ -1,1 +1,1 @@
-# Solid-Cache-for-WordPress
+# Solid Cache for WordPress
